@@ -10,16 +10,15 @@ These are examples of using montecarlo methods to solve linear programing proble
 To run them you can install conda python:
 
 #installing Miniconda on Mac
-'''
-$wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh
 
-$bash miniconda.sh -p miniconda
-'''
+    $wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh
+
+    $bash miniconda.sh -p miniconda
+
 ##Creating a new conda environment called mc_experiments (you ca call it whatever you want). I also install pandas which is a very useful package.
-'''
-$conda create --name mc_experiments pandas
-'''
+
+    $conda create --name mc_experiments pandas
+
 ##Activating it
-'''
-$source activate mc_experiments
-'''
+
+    $source activate mc_experiments
