@@ -22,3 +22,7 @@ To run them you can install conda python:
 ##Activating it
 
     $source activate mc_experiments
+
+##Running it
+
+    $python basic_example.py
